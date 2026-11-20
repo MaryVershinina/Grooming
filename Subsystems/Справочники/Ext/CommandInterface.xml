@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsVisibility>
+		<Command name="Catalog.Организации.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:fdb037a7-dc5c-4f44-a41c-32cd7a37ca6b">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Банки.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Кассы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ЭквайринговыеТерминалы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.БанковскиеСчета.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Catalog.Банки.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Деньги</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Кассы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Деньги</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ЭквайринговыеТерминалы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Деньги</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.БанковскиеСчета.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Деньги</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Покупки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Catalog.Банки.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Деньги</CommandGroup>
+		</Command>
+		<Command name="Catalog.Кассы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Деньги</CommandGroup>
+		</Command>
+		<Command name="Catalog.ЭквайринговыеТерминалы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Деньги</CommandGroup>
+		</Command>
+		<Command name="Catalog.БанковскиеСчета.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Деньги</CommandGroup>
+		</Command>
+		<Command name="Catalog.СтатьиЗатрат.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Покупки</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.Справочники.Subsystem.Персонал</Subsystem>
+		<Subsystem>Subsystem.Справочники.Subsystem.Продажи</Subsystem>
+		<Subsystem>1dad6e9d-2d54-45a2-a82b-1cedbc89c2c1</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.Деньги</Group>
+		<Group>CommandGroup.Покупки</Group>
+	</GroupsOrder>
+</CommandInterface>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="bc3d14bd-ff47-43e5-b79f-c331b8f12c86">
+		<Name>НаружнаяРеклама</Name>
+		<Code>000000005</Code>
+		<Description>Наружная реклама</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c1695d4b-d9a1-449a-877f-0922caf210f8">
+		<Name>ОтЗнакомых</Name>
+		<Code>000000006</Code>
+		<Description>От знакомых</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="68703e4d-edc8-422c-a64e-2d15f1caa0e4">
+		<Name>ПоискЯндекса</Name>
+		<Code>000000004</Code>
+		<Description>Поиск Яндекса</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="074b93ed-3cfc-458d-b366-57b036857794">
+		<Name>РекламаВТГ</Name>
+		<Code>000000001</Code>
+		<Description>Реклама в Телеграм</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3c3d7ebd-5ad9-4aac-85f4-ab9f14a4179e">
+		<Name>РекламаПоРадио</Name>
+		<Code>000000003</Code>
+		<Description>Реклама по радио</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1799f1e5-6dad-47fb-a929-7492e3dc40b5">
+		<Name>РекламаПоТВ</Name>
+		<Code>000000002</Code>
+		<Description>Реклама по ТВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
